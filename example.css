@@ -1,0 +1,36 @@
+
+/**
+ * @file
+ * Stylesheet coding standard example.
+ * See guideline/css.md
+ *
+ * Created by: Topsitemakers
+ * http://www.topsitemakers.com/
+ */
+
+
+/*****************************************************************************
+ * Section name
+ ****************************************************************************/
+#selector1 {
+  background: #F1F1F1;
+  font-size: 12px;
+  margin: 10px 15px;
+  padding: 5px 10px 3px;
+}
+#selector2 {
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+}
+/* Section name end */
+
+
+/*****************************************************************************
+ * Various other styles
+ ****************************************************************************/
+/* Code in this section should have subcomments */
+.random-other-style {
+  border-bottom: 1px solid #CCC;
+}
+/* Various other styles end */

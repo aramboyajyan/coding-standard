@@ -1,0 +1,44 @@
+<!--
+Coding standard for HTML and Handlebars JS templates.
+
+Created by: Topsitemakers
+http://www.topsitemakers.com/
+-->
+
+<!-- #example -->
+<section id="example" class="sample-class {{#if extra_class}} {{extra_class}} {{/if}}">
+
+  <!-- Block comments -->
+  {{#if title}}
+    <h1>{{title}}</h1>
+  {{/if}}
+
+  {{! This is a sample comment which will be removed from the output}}
+  {{#if subtitle}}
+    <h2>{{subtitle}}</h2>
+  {{else}}
+    <h2>Subtitle ommitted</h2>
+  {{/if}}
+
+  <!-- Simple list of values -->
+  <!-- #items -->
+  <div id="items">
+    {{#each items}}
+      <div class="item">{{this}}</div>
+    {{/each}}
+  </div>
+  <!-- /#items -->
+
+  <!-- List of objects -->
+  <!-- #objects -->
+  <div id="people">
+    {{#each person}}
+  </div>
+  <!-- /#objects -->
+
+  <!-- #description -->
+  <div id="description">{{description}}</div>
+  <!-- /#description -->
+
+</section>
+<!-- /#example -->

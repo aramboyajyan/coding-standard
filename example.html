@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Example HTML document</title>
+<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+
+<!-- #main -->
+<div id="main">
+
+  <!-- #content -->
+  <section id="content">
+    <p>Pay attention to the comments - they have to be at the beginning and end of elements with IDs.</p>
+    <p>If there are 2 or more elements with IDs used as wrappers, it is enough to add comments only to the parent.</p>
+    <p>Look below for the example</p>
+  </section>
+  <!-- /#content -->
+
+  <!-- #section-wrap -->
+  <div id="section-wrap">
+    <div id="section-wrap-inner">
+      <div id="section">
+
+        <h2>Section content and further elements go here</h2>
+
+      </div>
+    </div>
+  </div>
+  <!-- /#section-wrap -->
+
+  <!-- #right -->
+  <aside id="right">
+
+    <!-- #block-1 -->
+    <div id="block-1">Sidebar block 1</div>
+    <!-- /#block-1 -->
+
+    <!-- #block-2 -->
+    <div id="block-2">Sidebar block 2</div>
+    <!-- /#block-2 -->
+
+  </aside>
+  <!-- /#right -->
+
+  <!-- footer -->
+  <footer>
+    <p>Unique elements with their own HTML tags (usually footer and header) should also have comments at the beginning and at the end.</p>
+    <p>There is no need to give them special ID or class, unless required by the layout.</p>
+  </footer>
+  <!-- /footer -->
+
+</div>
+<!-- /#main -->
+
+</body>
+</html>
