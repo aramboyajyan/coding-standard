@@ -2,7 +2,8 @@
 /**
  * @file
  * Stylesheet coding standard example.
- * See guideline/css.md
+ *
+ * See: guidelines/css.md
  *
  * Created by: Topsitemakers
  * http://www.topsitemakers.com/
@@ -32,5 +33,11 @@
 /* Code in this section should have subcomments */
 .random-other-style {
   border-bottom: 1px solid #CCC;
+}
+/* Targeting element attributes */
+input[type="submit"] {
+  background: #FFF;
+  border: 1px solid #CCC;
+  color: #000;
 }
 /* Various other styles end */

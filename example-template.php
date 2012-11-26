@@ -4,6 +4,8 @@
  * @file
  * Coding standard for HTML and PHP templates.
  *
+ * See: guidelines/php.tpl.md
+ *
  * Created by: Topsitemakers
  * http://www.topsitemakers.com/
  */

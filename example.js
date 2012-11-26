@@ -9,6 +9,8 @@
  *    - single quotes
  *    - spacing between the characters
  *
+ * See: guidelines/js.md
+ *
  * Created by: Topsitemakers
  * http://www.topsitemakers.com/
  */
