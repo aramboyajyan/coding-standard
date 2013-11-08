@@ -4,7 +4,7 @@ Internal coding standard with examples for CSS, HTML, JavaScript and PHP.
 
 ### See also
 
-[Drupal coding standards](http://www.topsitemakers.com/)
+[Drupal coding standards](https://drupal.org/coding-standards)
 
 <hr>
 
