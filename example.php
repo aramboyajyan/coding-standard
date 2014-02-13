@@ -24,7 +24,7 @@
  */
 
 /**
- * Function title
+ * Function title.
  * 
  * Short description of what it does.
  * The param, return, access etc. Additional comment properties can be
@@ -46,11 +46,11 @@
 function sample_function($arg1, $arg2 = NULL, $arg3 = array()) {
   
   /**
-   * SQL queries
+   * SQL queries.
    */
-  // Short
+  // Short.
   $query = mysql_query("SELECT * FROM `table` WHERE `status` = 1");
-  // Long
+  // Long.
   $long_query = mysql_query("SELECT
                               u.`id`,
                               u.`name`,
@@ -64,7 +64,7 @@ function sample_function($arg1, $arg2 = NULL, $arg3 = array()) {
                             LIMIT 1");
 
   /**
-   * Switch
+   * Switch.
    */
   switch ($arg1) {
     case '1':
@@ -81,7 +81,7 @@ function sample_function($arg1, $arg2 = NULL, $arg3 = array()) {
   }
 
   /**
-   * If statement
+   * If statement.
    */
   if (isset($arg2)) {
     $result = 'Arg 2 is present.';
@@ -89,11 +89,11 @@ function sample_function($arg1, $arg2 = NULL, $arg3 = array()) {
   else {
     $result = 'Arg 2 is not present.';
   }
-  // Shortened
+  // Shortened.
   $result = $arg2 ? 'Arg 2 is present.' : 'Arg 2 is not present.';
 
   /**
-   * Do-while statements
+   * Do-while statements.
    */
   $count = 1;
   do {
@@ -101,7 +101,7 @@ function sample_function($arg1, $arg2 = NULL, $arg3 = array()) {
   } while($count <= 100);
 
   /**
-   * Basic calculations and concatenating strings
+   * Basic calculations and concatenating strings.
    */
   $a = 1 + 2 + 3 * (10 + 15);
   $name = 'John';
@@ -109,25 +109,25 @@ function sample_function($arg1, $arg2 = NULL, $arg3 = array()) {
   $full_name = $name . ' ' . $surname;
 
   /**
-   * Leveling variable names and values with spacing
+   * Leveling variable names and values with spacing.
    */
   $variable_one   = 'Value one';
   $variable_two   = 'Value two';
   $variable_three = 'Value three';
-  // Another sample
+  // Another sample.
   $output  = '<ul>';
   $output .= '<li>List item</li>';
   $output .= '</ul>';
 
   /**
-   * Foreach
+   * Foreach.
    */
   foreach ($arg3 as $item) {
     $items[] = $item;
   }
 
   /**
-   * While
+   * While.
    */
   $i = 0;
   while ($i < 10) {
@@ -135,11 +135,11 @@ function sample_function($arg1, $arg2 = NULL, $arg3 = array()) {
   }
 
   /**
-   * Small details
+   * Small details.
    */
-  // Short array
+  // Short array.
   $short_array = array('one', 'two', 'three');
-  // Long array
+  // Long array.
   $long_array = array(
     'Sample value one',
     'Sample value two',
@@ -151,18 +151,18 @@ function sample_function($arg1, $arg2 = NULL, $arg3 = array()) {
       'three' => 'Three',
     ),
   );
-  // Use print instead of echo
+  // Use print instead of echo.
   print $full_name;
 
 }
 
 /**
- * Sample name class
+ * Sample name class.
  */
 class Name extends Parent {
   
   /**
-   * Function description
+   * Function description.
    * 
    * @access public
    *
