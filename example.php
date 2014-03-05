@@ -49,18 +49,18 @@ function sample_function($arg1, $arg2 = NULL, $arg3 = array()) {
    * SQL queries.
    */
   // Short.
-  $query = mysql_query("SELECT * FROM `table` WHERE `status` = 1");
+  $query = mysql_query("SELECT * FROM table WHERE status = 1");
   // Long.
   $long_query = mysql_query("SELECT
-                              u.`id`,
-                              u.`name`,
-                              u.`email`
+                              u.id,
+                              u.name,
+                              u.email
                             FROM
-                              `users` u
+                              users u
                             WHERE
-                              u.`created` > 123456 AND
-                              u.`status` = 1
-                            ORDER BY u.`id` ASC
+                              u.created > 123456 AND
+                              u.status = 1
+                            ORDER BY u.id ASC
                             LIMIT 1");
 
   /**
